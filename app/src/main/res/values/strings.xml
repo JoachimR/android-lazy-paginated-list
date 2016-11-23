@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LazyPaginationList</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="pagination_header">%1$s-%2$s / %3$s</string>
+    <string name="menu_order_toggle">Sort desc/asc</string>
+</resources>

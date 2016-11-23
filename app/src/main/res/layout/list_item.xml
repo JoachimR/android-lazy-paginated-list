@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="@color/grey">
+
+    <ProgressBar
+        android:id="@+id/list_item_loading_root"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:scaleX="0.5"
+        android:scaleY="0.5" />
+
+    <LinearLayout
+        android:id="@+id/list_item_loaded_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/list_item_title"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here Title here " />
+
+        <TextView
+            android:id="@+id/list_item_message"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            tools:text="message message message message message message message message message message message message message message " />
+
+    </LinearLayout>
+</FrameLayout>
